@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Nunito:ital,wght@0,200;0,400;0,600;0,700;1,300&family=Roboto+Slab&display=swap');
+* {
+    font-family: 'Bakbak One', cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg, rgb(41, 41, 41), rgb(168, 168, 168));
+    height: 100vh;
+}
+
+canvas {
+    box-shadow: black 20px 20px 40px;
+}
+h1 {
+    font-size: 54px;
+    margin: 0;
+}
+
+.tutorial {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    font-size: 50px;
+}
+.contact a {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+}
+.contact i {
+    color: rgb(12,135,239);
+
+}
+
+
+@media (max-width: 500px) {
+    .contact {
+        bottom: 54px;
+        left: 160px;
+        font-size: 40px;
+    }
+}
